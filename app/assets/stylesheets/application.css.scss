@@ -14,8 +14,16 @@
  *= require_self
  */
  
-@import "bootstrap-sprockets";
-@import "bootstrap";
+.jumbotron {
+  background: #1D976C ;
+  color: #F8F8F8;
+}
 
-@import "font-awesome-sprockets";
-@import "font-awesome";
+.navbar-inverse .navbar-brand {
+    color: #F8F8F8;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+     color: #93F9B9;
+}
